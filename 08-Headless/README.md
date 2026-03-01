@@ -1,4 +1,4 @@
-# 第 8 讲：无人值守 · Headless 模式与 CI/CD 集成
+# 第 13 讲：无人值守 · Headless 模式与 CI/CD 集成
 
 > 让 Claude Code 在 GitHub Actions 中静默运行——从交互式到全自动的工程化转型
 

@@ -1,4 +1,4 @@
-# 第 10 讲：化零为整 · Plugins 插件打包与分发
+# 第 16 讲：化零为整 · Plugins 插件打包与分发
 
 > 把 Commands、Skills、Agents、Hooks 组合成可复用的插件，实现团队资产沉淀与共享
 

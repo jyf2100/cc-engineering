@@ -1,4 +1,4 @@
-# 第 7 讲：海纳百川 · MCP 协议与外部工具连接
+# 第 12 讲：海纳百川 · MCP 协议与外部工具连接
 
 > 通过 Model Context Protocol，把数据库、API、第三方服务变成 Claude 可调用的工具
 

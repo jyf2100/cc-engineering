@@ -1,4 +1,6 @@
-# 第 9 讲：庖丁解牛 · Agent SDK 基础与高级应用
+# 第 14-15 讲：庖丁解牛 · Agent SDK 基础与高级应用
+
+> 第 14 讲（基础）+ 第 15 讲（高级）合并讲解
 
 > 用 Python/TypeScript 编程驱动 Claude 执行任务，构建生产级 AI Agent
 
