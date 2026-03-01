@@ -1,0 +1,8 @@
+{
+  "name": "team-standards",
+  "version": "2.0.0",
+  "description": "团队编码规范和最佳实践",
+  "author": "my-team",
+  "keywords": ["standards", "conventions", "best-practices"],
+  "license": "MIT"
+}

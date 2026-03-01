@@ -1,0 +1,15 @@
+[project]
+name = "test-fixer-agent"
+version = "0.1.0"
+description = "Automated test fixing agent using Claude Code SDK"
+requires-python = ">=3.10"
+dependencies = [
+    "claude-code-sdk>=0.1.0",
+]
+
+[project.scripts]
+test-fixer = "main:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

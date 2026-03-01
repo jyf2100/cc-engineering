@@ -2,20 +2,11 @@
 ARCHITECTURE.md
 **/tutorial.md
 
-# Projects 目录
-**/Projects/
+# Projects 目录（仅根目录）
+/Projects/
 
-# 06-10 章节内容（仅保留 README.md）
-06-Hooks/*
-!06-Hooks/README.md
-07-MCP/*
-!07-MCP/README.md
-08-Headless/*
-!08-Headless/README.md
-09-Agent-SDK/*
-!09-Agent-SDK/README.md
-10-Plugins/*
-!10-Plugins/README.md
+# 06-10 章节内容（已发布）
+# 06-Hooks、07-MCP、08-Headless、09-Agent-SDK、10-Plugins 章节已完整发布
 
 # 课程后续章节（待发布）
 11-Debugging/

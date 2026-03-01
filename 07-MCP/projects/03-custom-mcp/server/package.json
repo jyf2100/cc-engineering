@@ -1,0 +1,18 @@
+{
+  "name": "simple-mcp-server",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "简单的 MCP 服务器示例",
+  "bin": {
+    "simple-mcp-server": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

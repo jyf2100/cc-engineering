@@ -54,7 +54,7 @@ Claude 会：
 
 ```
 04-parallel-explore/
-├── src/
+├── src/、re
 │   ├── auth/           # 认证模块
 │   │   ├── index.js
 │   │   ├── jwt.js

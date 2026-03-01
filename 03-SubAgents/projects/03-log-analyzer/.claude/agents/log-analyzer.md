@@ -1,7 +1,7 @@
 ---
 name: log-analyzer
 description: Analyze log files and extract actionable insights. Use when troubleshooting issues or investigating incidents.
-tools: Read, Grep, Glob, Bash
+tools: Read, Grep, Glob
 model: sonnet
 ---
 
@@ -61,6 +61,14 @@ grep "ERROR" *.log | cut -d']' -f2 | sort | uniq -c | sort -rn
 ### Recommendations
 1. [Prioritized action items]
 ```
+
+## Constraints
+
+- Maximum 10 critical issues in report
+- Each issue: max 3 sentences for impact description
+- Skip warnings older than the analysis time window
+- Output should not exceed 500 lines
+- Evidence quotes: max 5 lines each
 
 ## Guidelines
 

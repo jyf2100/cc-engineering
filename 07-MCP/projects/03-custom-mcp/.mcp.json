@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "simple": {
+      "command": "node",
+      "args": ["${CLAUDE_PROJECT_DIR}/server/index.js"]
+    }
+  }
+}

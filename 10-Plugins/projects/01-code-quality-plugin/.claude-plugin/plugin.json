@@ -1,0 +1,8 @@
+{
+  "name": "code-quality",
+  "version": "1.0.0",
+  "description": "代码质量检查和改进工具集",
+  "author": "claude-code-course",
+  "keywords": ["code-review", "lint", "format", "quality"],
+  "license": "MIT"
+}
