@@ -111,10 +111,10 @@ for FILE in $STAGED_FILES; do
 
     # 检查每个敏感模式
     for PATTERN in "${PATTERNS[@]}"; do
-        if echo "$CONTENT" | grep -qiE "$PATTERN"; then
+        if echo "$CONTENT" | grep -qiE -- "$PATTERN"; then
             # 获取匹配行号
-            LINE_NUM=$(echo "$CONTENT" | grep -inE "$PATTERN" | head -1 | cut -d: -f1)
-            MATCH=$(echo "$CONTENT" | grep -iE "$PATTERN" | head -1)
+            LINE_NUM=$(echo "$CONTENT" | grep -inE -- "$PATTERN" | head -1 | cut -d: -f1)
+            MATCH=$(echo "$CONTENT" | grep -iE -- "$PATTERN" | head -1)
 
             echo -e "${RED}[ERROR] 发现敏感信息!${NC}"
             echo -e "  文件: ${YELLOW}$FILE${NC}"
