@@ -8,8 +8,13 @@ ARCHITECTURE.md
 # 06-10 章节内容（已发布）
 # 06-Hooks、07-MCP、08-Headless、09-Agent-SDK、10-Plugins 章节已完整发布
 
-# 11-16 章节内容（已发布）
-# 11-Debugging、12-Cost-Control、13-Security、14-Large-Codebase、15-Prompt-Engineering、16-Team-Collaboration 章节已完整发布
+# 课程后续章节（待发布）
+11-Debugging/
+12-Cost-Control/
+13-Security/
+14-Large-Codebase/
+15-Prompt-Engineering/
+16-Team-Collaboration/
 80-DreamApp/
 81-multi-agent-patterns/
 90-Documents/

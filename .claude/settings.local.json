@@ -2,7 +2,8 @@
   "permissions": {
     "allow": [
       "WebSearch",
-      "Bash(done)"
+      "Bash(done)",
+      "Bash(rm:*)"
     ]
   }
 }
