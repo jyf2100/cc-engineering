@@ -1,0 +1,49 @@
+# 允许 Claude 修改的文件
+# 格式：每行一个 glob 模式
+# 以 # 开头的行为注释
+# 以 ! 开头的模式表示禁止
+
+# 源代码
+src/**/*.js
+src/**/*.ts
+src/**/*.jsx
+src/**/*.tsx
+src/**/*.py
+src/**/*.go
+
+# 测试文件
+tests/**/*.js
+tests/**/*.ts
+tests/**/*.py
+tests/**/*_test.go
+
+# 文档
+*.md
+docs/**/*.md
+
+# 配置文件（非敏感）
+*.json
+!secrets.json
+*.yaml
+*.yml
+
+# 样式文件
+*.css
+*.scss
+*.less
+
+# 模板文件
+templates/**/*.html
+templates/**/*.ejs
+
+# 禁止修改的文件
+!.env*
+!.env.*
+!credentials/**
+!secrets/**
+!secrets.*
+!.github/workflows/**
+!.git/**
+!*.pem
+!*.key
+!id_rsa*

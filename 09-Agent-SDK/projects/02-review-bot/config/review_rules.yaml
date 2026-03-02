@@ -1,0 +1,77 @@
+# Code Review Rules Configuration
+# 定义代码审查规则和阈值
+
+# 审查严重级别
+severity_levels:
+  high:
+    - security_vulnerability
+    - sql_injection
+    - xss_vulnerability
+    - hardcoded_credentials
+    - authentication_bypass
+
+  medium:
+    - code_smell
+    - performance_issue
+    - missing_error_handling
+    - deprecated_api
+
+  low:
+    - style_violation
+    - missing_documentation
+    - naming_convention
+
+# 审查范围
+review_scope:
+  # 检查的文件类型
+  file_patterns:
+    - "**/*.js"
+    - "**/*.ts"
+    - "**/*.jsx"
+    - "**/*.tsx"
+    - "**/*.py"
+    - "**/*.go"
+
+  # 排除的文件
+  exclude_patterns:
+    - "**/node_modules/**"
+    - "**/dist/**"
+    - "**/build/**"
+    - "**/*.min.js"
+    - "**/*.test.js"
+
+# 安全检查规则
+security_rules:
+  sql_injection:
+    enabled: true
+    patterns:
+      - "SELECT.*\\+.*"
+      - "query\\(.*\\+.*\\)"
+      - "execute\\(.*\\$\\{"
+
+  xss_vulnerability:
+    enabled: true
+    patterns:
+      - "innerHTML\\s*="
+      - "document\\.write"
+      - "dangerouslySetInnerHTML"
+
+  hardcoded_credentials:
+    enabled: true
+    patterns:
+      - "password\\s*=\\s*['\"]"
+      - "api_key\\s*=\\s*['\"]"
+      - "secret\\s*=\\s*['\"]"
+
+# 代码质量规则
+quality_rules:
+  max_file_length: 500
+  max_function_length: 100
+  max_complexity: 10
+  min_test_coverage: 80
+
+# 输出配置
+output:
+  format: "markdown"
+  include_suggestions: true
+  include_code_snippets: true
