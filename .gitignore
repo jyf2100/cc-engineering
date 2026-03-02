@@ -40,3 +40,6 @@ node_modules/
 .claude/
 **/settings.json
 **/settings.local.json
+
+# 例外：06-Hooks 示例项目的配置允许提交
+!06-Hooks/projects/**/.claude/settings.json
