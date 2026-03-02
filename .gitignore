@@ -35,4 +35,8 @@ venv/
 
 # Node
 node_modules/
+
+# Claude Code 本地配置
 .claude/
+**/settings.json
+**/settings.local.json
